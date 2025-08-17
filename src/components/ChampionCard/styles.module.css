@@ -1,12 +1,3 @@
-/* .card{ background:#11141b; border-radius:16px; padding:12px; box-shadow:0 10px 20px rgba(0,0,0,.25); border:1px solid #1c2230; }
-.row{ display:flex; align-items:center; gap:12px; }
-.rowBetween{ display:flex; align-items:center; justify-content:space-between; gap:12px; }
-.flex{ flex:1; }
-.square{ width:48px; height:48px; border-radius:8px; object-fit:cover; border:1px solid #263043; }
-.btn{ background:#7aa2f7; color:#0b0e14; font-weight:700; border:none; padding:8px 10px; border-radius:10px; cursor:pointer; }
-.muted{ color:#9aa4b2; }
-.details{ margin-top:8px; font-size:14px; line-height:1.35; color:#cfd6e6; display:flex; flex-direction:column; gap:8px; } */
-
 .card{
   background:#11141b;
   border-radius:16px;

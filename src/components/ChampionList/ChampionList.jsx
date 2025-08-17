@@ -1,25 +1,3 @@
-// import React from 'react'
-// import styles from './styles.module.css'
-// import ChampionCardContainer from '../ChampionCard/ChampionCardContainer.jsx'
-
-// export default function ChampionList({ list, version, favorites, onToggleFavorite }) {
-//   return (
-//     <div className={styles.grid}>
-//       {list.map(ch => (
-//         <ChampionCardContainer
-//           key={ch.id}
-//           champion={ch}
-//           version={version}
-//           favorites={favorites}
-//           onToggleFavorite={onToggleFavorite}
-//         />
-//       ))}
-//     </div>
-//   )
-// }
-
-
-import React from 'react'
 import styles from './styles.module.css'
 import ChampionCardContainer from '../ChampionCard/ChampionCardContainer.jsx'
 

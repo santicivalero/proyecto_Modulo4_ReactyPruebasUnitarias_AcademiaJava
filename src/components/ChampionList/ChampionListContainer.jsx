@@ -1,4 +1,3 @@
-import React from 'react'
 import ChampionList from './ChampionList.jsx'
 
 export default function ChampionListContainer({ list, version, favorites, onToggleFavorite }) {

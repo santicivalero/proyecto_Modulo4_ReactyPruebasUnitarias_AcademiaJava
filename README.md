@@ -67,18 +67,18 @@ Proyecto realizado en el marco de la Academia Java dictada por la Universidad Si
 
 ## ⚙️ Instalación y uso
 
-Clonar el repositorio e instalar las dependencias:
-
+- Clonar el repositorio e instalar las dependencias:
+```
 npm install
-
-Ejecutar en modo desarrollo:
-
+```
+- Ejecutar en modo desarrollo:
+```
 npm run dev
-
-Ejecutar las pruebas unitarias:
-
+```
+- Ejecutar las pruebas unitarias:
+```
 npm run test
-
+```
 ---
 
 ## ✨ Funcionalidades principales
