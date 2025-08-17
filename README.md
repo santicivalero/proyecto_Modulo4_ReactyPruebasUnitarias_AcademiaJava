@@ -99,7 +99,6 @@ El consumo de API se realiza con `fetch` hacia **Data Dragon**:
 - **Éxito**: Se renderiza la lista de campeones o el detalle según corresponda.  
 - **Error**: Se muestra un mensaje indicando el fallo de conexión o datos inválidos.  
 
----
 
 ## 🧪 Pruebas unitarias
 
