@@ -18,7 +18,7 @@ Proyecto realizado en el marco de la Academia Java dictada por la Universidad Si
 ---
 
 ## 📂 Estructura del proyecto
-
+```
 ├── tests/
 │   ├── App.test.jsx
 │   ├── ChampionCardContainer.test.jsx
@@ -62,7 +62,7 @@ Proyecto realizado en el marco de la Academia Java dictada por la Universidad Si
 ├── vite.config.js
 ├── vitest.setup.js
 └── README.md
-
+```
 ---
 
 ## ⚙️ Instalación y uso
