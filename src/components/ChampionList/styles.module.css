@@ -1,0 +1,36 @@
+/* .grid{ display:grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap:16px; margin-top:16px; } */
+
+
+
+
+
+/* .grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap:20px;
+  margin-top:16px;
+}
+
+@media (min-width: 1440px) {
+  .grid { gap:24px; }
+} */
+
+
+
+
+/* Masonry-like simple con flex-wrap: cada card conserva su propia altura */
+.grid{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  align-items:flex-start; /* evita estirar en altura */
+}
+
+/* ancho “fluido” por tarjeta: crece hasta llenar, pero parte de 300px */
+.item{
+  flex: 1 1 300px;  /* base 300px, puede crecer y encogerse */
+  max-width: 420px; /* evita cards muy anchas en pantallas enormes */
+  min-width: 260px; /* evita que se haga demasiado angosta */
+}
+
+

@@ -1,0 +1,6 @@
+.row{ display:flex; align-items:center; gap:12px; }
+.square{ width:64px; height:64px; border-radius:12px; object-fit:cover; border:1px solid #263043; }
+.title{ margin:0 0 4px 0; }
+.muted{ color:#9aa4b2; }
+.details{ margin-top:8px; font-size:14px; line-height:1.35; color:#cfd6e6; }
+.list{ line-height:1.4; }

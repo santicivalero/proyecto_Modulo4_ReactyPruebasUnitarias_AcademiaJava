@@ -1,0 +1,90 @@
+/* .card{ background:#11141b; border-radius:16px; padding:12px; box-shadow:0 10px 20px rgba(0,0,0,.25); border:1px solid #1c2230; }
+.row{ display:flex; align-items:center; gap:12px; }
+.rowBetween{ display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.flex{ flex:1; }
+.square{ width:48px; height:48px; border-radius:8px; object-fit:cover; border:1px solid #263043; }
+.btn{ background:#7aa2f7; color:#0b0e14; font-weight:700; border:none; padding:8px 10px; border-radius:10px; cursor:pointer; }
+.muted{ color:#9aa4b2; }
+.details{ margin-top:8px; font-size:14px; line-height:1.35; color:#cfd6e6; display:flex; flex-direction:column; gap:8px; } */
+
+.card{
+  background:#11141b;
+  border-radius:16px;
+  padding:16px;                  /* aire extra en bordes */
+  box-shadow:0 10px 20px rgba(0,0,0,.25);
+  border:1px solid #1c2230;
+  width:100%;                    /* que use el ancho del .item */
+  min-width:0;                   /* importante en layouts flex para evitar overflow de texto */
+}
+
+.row{ display:flex; align-items:center; gap:12px; }
+.rowBetween{ display:flex; align-items:flex-start; justify-content:space-between; gap:12px; }
+.flex{ flex:1; min-width:0; }    /* permite que el texto rompa correctamente */
+.square{
+  width:52px; height:52px;
+  border-radius:10px;
+  object-fit:cover;
+  border:1px solid #263043;
+}
+
+.name{ line-height:1.2; }
+.subtitle{
+  color:#9aa4b2;
+  margin-top:2px;
+  line-height:1.25;
+  word-break:break-word;
+}
+
+/* Acciones con wrap para que nunca se desborden */
+.actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  justify-content:flex-end;
+  align-items:center;
+  max-width: 60%;
+}
+
+.btn{
+  background:#7aa2f7;
+  color:#0b0e14;
+  font-weight:700;
+  border:none;
+  padding:6px 10px;
+  border-radius:10px;
+  cursor:pointer;
+  white-space:nowrap;
+}
+
+.details{
+  margin-top:10px;
+  padding-top:6px;
+  border-top:1px solid #1c2230;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.blurb{
+  line-height:1.35;
+  color:#cfd6e6;
+  word-wrap:break-word;
+}
+
+.linkBtn{
+  align-self:flex-start;
+  background:#263043;
+  color:#e6e6e6;
+  text-decoration:none;
+  padding:6px 10px;
+  border-radius:10px;
+  border:1px solid #2f3a55;
+}
+
+@media (max-width: 480px) {
+  .square{ width:48px; height:48px; }
+  .actions{ max-width:100%; }
+}
+
+
+

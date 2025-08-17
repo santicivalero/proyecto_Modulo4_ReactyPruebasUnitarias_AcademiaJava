@@ -1,0 +1,4 @@
+.wrap{ display:flex; flex-wrap:wrap; gap:8px; }
+.badge{ display:inline-flex; align-items:center; gap:6px; border:1px solid #263043; padding:6px 10px; border-radius:999px; background:#0f1420; font-size:12px; }
+.btn{ background:#7aa2f7; color:#0b0e14; font-weight:700; border:none; padding:2px 8px; border-radius:8px; cursor:pointer; }
+.muted{ color:#9aa4b2; }
